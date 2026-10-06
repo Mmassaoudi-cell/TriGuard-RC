@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated data, caches, and run artifacts (not part of the source code;
+# rebuilt locally by the manifest-construction and training scripts)
+manifests_rg/
+manifests_dd/
+teacher_cache/
+teacher_cache_rg/
+results/
+results_rg/
+*.npz
+*.npy
+*.pt
+*.pth
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
